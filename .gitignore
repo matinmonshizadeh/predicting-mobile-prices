@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Browser drivers (Selenium Manager downloads its own)
+chromedriver*
+*.exe
+
+# Local-only files
+rodaki_monshizadeh_Project.zip
+
+# models/price_model.joblib is a few KB and is tracked on purpose so the app
+# runs without training first. Ignore it here if it ever grows past 5 MB.
